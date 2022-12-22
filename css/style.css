@@ -1,0 +1,76 @@
+:root{
+    --accent-color--:#34547A;
+    --text-color--:#727272;
+}
+ul{
+    list-style: none;
+}
+
+.logo{
+    font-family: 'Revalia',cursive;
+font-size: 48px;
+line-height: 1.25;
+color: #34547A;
+text-decoration: none;
+}
+.nav-menu .link.active{
+    color: var(--accent-color--);
+}
+.nav-menu .link{
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 1.63;
+letter-spacing: 0.1em;
+color:#000000;
+}
+.link{
+    text-decoration: none;
+}
+body{
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+}
+.hero{
+    background-color:var(#EEEFF1) ;
+}
+.title{
+    color: #000000;
+}
+.hero > .title{
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 1.65;
+}
+.hero .button{
+    background-color: var(--accent-color--);
+    color: white;
+    width: 225px;
+    height: 65px;
+    left: 975px;
+    top: 482px;
+}
+.about{
+    text-align: center;
+}
+ul.list{
+    margin: 50px;
+    padding: 50px;
+}
+ul.list li {
+    display: inline-block; 
+    padding: 3px; 
+    margin: 2%;
+}
+.proj{
+    color: #FFFFFF;
+    display: inline-block;
+
+}
+.sec2{
+    margin: 10%;
+    line-height: 1.25;
+}
